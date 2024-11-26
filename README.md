@@ -1,2 +1,2 @@
-# Redi-project-Potapova
+# Redi-project
 My project for ReDI
