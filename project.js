@@ -84,11 +84,33 @@ findRecipesButton.onclick = findRecipes;
 
 function showRecipeDetails(recipe) {
     recipeName.textContent = recipe.name;
+
+    const recipeImage = document.createElement("img");
+    recipeImage.srс = recipe.image;
+    recipeImage.alt = recipe.name;
+    recipeImage.style.width = "700px";
+    recipeImage.style.marginBottom = "20px";
+
     recipeIngredients.innerHTML = "";
+    recipeInstructions.textContent = "";
+
+    const recipeDetailsSection = document.getElementById("recipe-details");
+    recipeDetailsSection.innerHTML = '';
+
+    recipeDetailsSection.appendChild(recipeImage);
+
     recipe.ingredients.forEach((ing) => {
         const li = document.createElement("li");
         li.textContent = `${ing.name} - ${ing.amount} ${ing.unit}`;
         recipeIngredients.appendChild(li);
     });
-    recipeInstructions.textContent = recipe.instructions;
+
+    const instructionsList = document.createElement("ol");
+    recipe.instructions.split("\n").forEach((step) => {
+        const li = document.createElement("li");
+        li.textContent = step;
+        instructionsList.appendChild(li);
+    });
+
+    recipeInstructions.appendChild(instructionsList);
 }
