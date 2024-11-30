@@ -55,3 +55,57 @@ main {
     background-color: #e65a50;
 }
 
+#recipes h2 {
+    color: #ff6f61;
+}
+
+#find-recipes {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#find-recipes:hover {
+    background-color: #0056b3;
+}
+
+#ingredient-list,
+#recipe-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ingredient-list li,
+#recipe-list li {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#recipe-list li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#recipe-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#recipe-name {
+    color: #ff6f61;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#recipe-ingredients li {
+    margin-bottom: 5px;
+}
