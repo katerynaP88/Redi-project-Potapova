@@ -79,7 +79,7 @@ function showRecipeDetails(recipe) {
     recipeIngredients.innerHTML = "";
     recipe.ingredients.forEach((ing) => {
         const li = document.createElement("li");
-        li.textContent = "${ing.name} - ${ing.amount} ${ing.unit}";
+        li.textContent = `${ing.name} - ${ing.amount} ${ing.unit}`;
         recipeIngredients.appendChild(li);
     });
     recipeInstructions.textContent = recipe.instructions;
