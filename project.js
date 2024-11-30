@@ -72,7 +72,7 @@ function findRecipes() {
     }
 
     ingredients = []; // The list of ingredients is cleared
-    displayIngredients();  // The interface is updated after cleaning
+    displayIngredients(); // Обновление интерфейса после очистки
 };
 
 findRecipesButton.onclick = findRecipes;
