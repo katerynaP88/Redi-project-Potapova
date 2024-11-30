@@ -28,9 +28,14 @@ fetch("project.json")
     }
 
 addIngredientButton.onclick = function () {
-    const ingredient = ingredientInput.value.trim().toLowerCase();
-    if (ingredient && !ingredients.includes(ingredient)) {
-        ingredients.push(ingredient);
+    const input = ingredientInput.value.trim().toLowerCase();
+    if (input) {
+        const newIngredients = input.split(",").map((ing) => ing.trim()).filter((ing) => ing);
+        newIngredients.forEach((ingredient) => {
+            if (!ingredients.includes(ingredient)) {
+                ingredients.push(ingredient);
+            }
+        });
         displayIngredients();
         console.log("Ingredients list:", ingredients);
     }
@@ -72,7 +77,7 @@ function findRecipes() {
     }
 
     ingredients = []; // The list of ingredients is cleared
-    displayIngredients(); // Обновление интерфейса после очистки
+    displayIngredients(); // Updating the interface after cleaning
 };
 
 findRecipesButton.onclick = findRecipes;
