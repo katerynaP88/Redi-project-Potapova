@@ -27,3 +27,31 @@ main {
     padding: 20px;
 }
 
+#ingredients {
+    margin-bottom: 20px;
+}
+
+#ingredients h2 {
+    color: #ff6f61;
+}
+
+#ingredient-input {
+    width: calc(100% - 130px);
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+#add-ingredient {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#add-ingredient:hover {
+    background-color: #e65a50;
+}
+
