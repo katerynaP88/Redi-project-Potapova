@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Borsch",
+        "ingredients": [
+            { "name": "beef", "amount": 300, "unit": "g" },
+            { "name": "beet", "amount": 300, "unit": "g" },
+            { "name": "cabbage", "amount": 400, "unit": "g" },
+            { "name": "potatoes", "amount": 500, "unit": "g" },
+            { "name": "carrots", "amount": 100, "unit": "g" },
+            { "name": "root parsley", "amount": 2, "unit": "PCs." },
+            { "name": "onions", "amount": 2, "unit": "heads" },
+            { "name": "garlic", "amount": 3, "unit": "cloves" },
+            { "name": "clarified butter", "amount": 2, "unit": "tbsp. spoon" },
+            { "name": "fat", "amount": 50, "unit": "g" },
+            { "name": "sweet pepper", "amount": 1, "unit": "PC." },
+            { "name": "bay leaf", "amount": 1, "unit": "PC." },
+            { "name": "sour cream",  "amount": 150, "unit": "g" },
+            { "name": "parsley",  "amount": 20, "unit": "g" },
+            { "name": "dill",  "amount": 20, "unit": "g" },
+            { "name": "ground black pepper",  "amount": 5, "unit": "g" },
+            { "name": "salt",  "amount": 1, "unit": "tbsp. spoon" }
+
+        ],
+        "instructions": "Boil the meat in 3 liters of water, add salt and pepper. Beets, cabbage and onions cut into strips, potatoes - slices. Beet fry in butter, add a tablespoon of vinegar (3%), stew until tender in small amount of broth, add sugar (1 tablespoon), tomato paste (2 tablespoons). Strain the broth and continue to cook. Meat cut into cubes and put in boiling broth, add potatoes, cabbage and cook for 15 minutes. Then add the beets, vegetables and sweet pepper cut in shreds, spices. Cook for another 15 minutes. Add chopped garlic, pounded with fat and bring to a boil. Then let stand another 20 minutes."
+    },
+    {
+        "name": "Potato salad",
+        "ingredients": [
+            { "name": "potatoes", "amount": 1, "unit": "kg" },
+            { "name": "onions", "amount": 1, "unit": "head" },
+            { "name": "cucumber", "amount": 2, "unit": "pcs" },
+            { "name": "vegetable oil", "amount": 4, "unit": "tbsp. spoon" },
+            { "name": "apple cider", "amount": 3, "unit": "tbsp. spoon" },
+            { "name": "salt", "amount": 0.5, "unit": "tsp" },
+            { "name": "pepper", "amount": 0.5, "unit": "tsp" }
+        ],
+        "instructions": "Peel and wash the potatoes. Cut the peeled potatoes into thin slices. Place the potatoes in boiling salted water and cook for 6-7 minutes. Place the boiled potatoes in a colander and cool. Grate the cucumbers on a coarse grater. Peel the onion and use fine mode. Mix cucumbers and onions. In a small bowl, combine oil and vinegar and whisk. Add potatoes, dressing and salt and pepper to taste."
+    },
+    {
+        "name": "Pasta Bolognese",
+        "ingredients": [
+            { "name": "mixed minced meat", "amount": 500, "unit": "g" },
+            { "name": "spaghetti", "amount": 400, "unit": "g" },
+            { "name": "pureed tomatoes", "amount": 400, "unit": "g" },
+            { "name": "pancetta", "amount": 100, "unit": "tsp" },
+            { "name": "onions", "amount": 150, "unit": "g" },
+            { "name": "carrot", "amount": 50, "unit": "g" },
+            { "name": "celery stalks", "amount": 50, "unit": "g" },
+            { "name": "milk",  "amount": 200, "unit": "ml" },
+            { "name": "butter", "amount": 40, "unit": "g" },
+            { "name": "vegetable oil", "amount": 1, "unit": "tbsp. spoon" },
+            { "name": "tomato paste", "amount": 1, "unit": "tbsp. spoon" },
+            { "name": "bay leaf", "amount": 1, "unit": "PC." },
+            { "name": "nutmeg", "amount": 1, "unit": "pinch" },
+            { "name": "black pepper", "amount": 0.5, "unit": "tsp" },
+            { "name": "salt","amount": 0.5, "unit": "tsp" }
+        ],
+        "instructions": "Cut the pancetta into small cubes. Peel and chop the carrots, celery and onion. Now heat 1 tablespoon of vegetable oil in a pan and fry the chopped pancetta cubes for 1-2 minutes. Then add butter, onion, Add the celery and carrot cubes to the pan and let everything simmer over medium heat for about 3 minutes. Then add the minced meat to the pan and season with 1 teaspoon salt and 1/4 teaspoon ground black pepper. Then add 1 tablespoon of tomato paste. Now add the milk and let it simmer until it has almost evaporated. Add a pinch of grated nutmeg. Stir occasionally. Now add the pureed tomatoes and bay leaf to the pan. Then mix everything well. Let the bolognese simmer over medium-low heat with the lid half-open for about 40 minutes. Stir occasionally, and if the bolognese becomes too dry, add a little milk or water, a tablespoon at a time. Season with salt and black pepper. Cook the pasta in salted water ahead of time."
+    },
+    {
+        "name": "Classic New York Cheesecake",
+        "ingredients": [
+            { "name": "Philadelphia cream cheese", "amount": 500, "unit": "g" },
+            { "name": "cookie", "amount": 150, "unit": "g" },
+            { "name": "butter", "amount": 75, "unit": "g" },
+            { "name": "sugar", "amount": 150, "unit": "g" },
+            { "name": "eggs", "amount": 3, "unit": "pcs" },
+            { "name": "flour", "amount": 30, "unit": "g" },
+            { "name": "cream", "amount": 35, "unit": "g" },
+            { "name": "vanilla sugar", "amount":5 , "unit": "g" },
+            { "name": "lemon", "amount": 0.5, "unit": "pcs" }
+        ],
+        "instructions": "Grind cookies in a blender. Melt the butter and mix with the shortbread crumbs until smooth. Add a small amount of sugar, a pinch of salt, vanilla sugar and knead the dough. Grease the inner surface of the mold with butter. Transfer the dough into the pan and press it firmly to the bottom and up the sides to form a sandy base for the future cheesecake. Preheat the oven to 160°C and bake the base for 15-20 minutes. Next, remove the pan from the oven and let cool completely. Prepare the cheesecake filling: Using a stand mixer or blender, beat the cream cheese on medium speed until fluffy. Gradually add sugar, a pinch of salt, flour, lemon zest and juice, continuing to beat until fluffy, about 2-3 minutes. In a separate container, beat eggs and cream. Pour the egg mixture into the cream cheese and gently stir until smooth. Take the baked cheesecake base in a springform pan and pour the batter over the crust. Preheat the oven to 160°C and bake for 60 minutes."
+    }
+]
