@@ -70,6 +70,9 @@ function findRecipes() {
         li.textContent = "No recipes found";
         recipeList.appendChild(li);
     }
+
+    ingredients = []; // The list of ingredients is cleared
+    displayIngredients();  // The interface is updated after cleaning
 };
 
 findRecipesButton.onclick = findRecipes;
