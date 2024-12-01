@@ -109,3 +109,21 @@ main {
 #recipe-ingredients li {
     margin-bottom: 5px;
 }
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    header p {
+        font-size: 1em;
+    }
+    main {
+        padding: 10px;
+    }
+    #ingredients, #recipes, #recipe-details {
+        margin-bottom: 10px;
+    }
+    #ingredient-input {
+        width: calc(100% - 100px);
+    }
+}

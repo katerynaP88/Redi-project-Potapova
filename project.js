@@ -1,5 +1,5 @@
 let ingredients = [];
-let recipes = []; //пустой массив
+let recipes = []; 
 
 const ingredientInput = document.getElementById("ingredient-input");
 const addIngredientButton = document.getElementById("add-ingredient");
@@ -14,7 +14,7 @@ fetch("project.json")
     .then((response) => response.json())
     .then((data) => {
         console.log("Loaded recipes:", data); 
-        recipes = data; //пустой массив, переписівается джейсоном
+        recipes = data; 
         useRecipes(data);
     })
     .catch((error) => console.error("Error loading recipes:", error));
