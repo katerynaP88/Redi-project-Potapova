@@ -86,7 +86,7 @@ function showRecipeDetails(recipe) {
     recipeName.textContent = recipe.name;
 
     const recipeImage = document.createElement("img");
-    recipeImage.srс = recipe.image;
+    recipeImage.src = recipe.image;
     recipeImage.alt = recipe.name;
     recipeImage.style.width = "700px";
     recipeImage.style.marginBottom = "20px";

@@ -1,7 +1,7 @@
 [
     {
         "name": "Borsch",
-        "image": "https://news.store.rambler.ru/img/079ea10745a056038a8b2f2f7b20f40d?img-format=auto&img-1-resize=height:350,fit:max&img-2-filter=sharpen",
+        "image": "https://images.unian.net/photos/2020_04/1588081977-7108.jpg?0.533115173094685",
         "ingredients": [
             { "name": "beef", "amount": 300, "unit": "g" },
             { "name": "beet", "amount": 300, "unit": "g" },
@@ -40,7 +40,7 @@
     },
     {
         "name": "Pasta Bolognese",
-        "image": "https://feelgoodfoodie.net/wp-content/uploads/2023/04/Pasta-Bolognese-11.jpg",
+        "image": "https://smachno.ua/wp-content/uploads/2018/07/10/basil-dinner-food-8500-323x323.jpg",
         "ingredients": [
             { "name": "mixed minced meat", "amount": 500, "unit": "g" },
             { "name": "spaghetti", "amount": 400, "unit": "g" },
