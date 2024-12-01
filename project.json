@@ -22,7 +22,7 @@
             { "name": "salt",  "amount": 1, "unit": "tbsp. spoon" }
 
         ],
-        "instructions": "Boil the meat in 3 liters of water, add salt and pepper. Beets, cabbage and onions cut into strips, potatoes - slices. Beet fry in butter, add a tablespoon of vinegar (3%), stew until tender in small amount of broth, add sugar (1 tablespoon), tomato paste (2 tablespoons). Strain the broth and continue to cook. Meat cut into cubes and put in boiling broth, add potatoes, cabbage and cook for 15 minutes. Then add the beets, vegetables and sweet pepper cut in shreds, spices. Cook for another 15 minutes. Add chopped garlic, pounded with fat and bring to a boil. Then let stand another 20 minutes."
+        "instructions": "Boil the meat in 3 liters of water, add salt and pepper. Beets, cabbage and onions cut into strips, potatoes - slices. Beet fry in butter, add a tablespoon of vinegar (3%), stew until tender in small amount of broth, add sugar (1 tablespoon), tomato paste (2 tablespoons). Strain the broth and continue to cook. Meat cut into cubes and put in boiling broth, add potatoes, cabbage and cook for 15 minutes. Then add the beets, vegetables and sweet pepper cut in shreds, spices. Cook for another 15 minutes. Add chopped garlic, pounded with fat and bring to a boil. Then let stand another 20 minutes." 
     },
     {
         "name": "Potato salad",
@@ -40,7 +40,7 @@
     },
     {
         "name": "Pasta Bolognese",
-        "image": "https://smachno.ua/wp-content/uploads/2018/07/10/basil-dinner-food-8500-323x323.jpg",
+        "image": "https://cdn.pixabay.com/photo/2023/05/28/11/47/ai-generated-8023478_1280.jpg",
         "ingredients": [
             { "name": "mixed minced meat", "amount": 500, "unit": "g" },
             { "name": "spaghetti", "amount": 400, "unit": "g" },
