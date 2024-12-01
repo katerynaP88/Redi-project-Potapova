@@ -1,5 +1,5 @@
 let ingredients = [];
-let recipes = [];
+let recipes = []; //пустой массив
 
 const ingredientInput = document.getElementById("ingredient-input");
 const addIngredientButton = document.getElementById("add-ingredient");
@@ -14,7 +14,7 @@ fetch("project.json")
     .then((response) => response.json())
     .then((data) => {
         console.log("Loaded recipes:", data); 
-        recipes = data;
+        recipes = data; //пустой массив, переписівается джейсоном
         useRecipes(data);
     })
     .catch((error) => console.error("Error loading recipes:", error));
@@ -94,10 +94,11 @@ function showRecipeDetails(recipe) {
     recipeIngredients.innerHTML = "";
     recipeInstructions.textContent = "";
 
-    const recipeDetailsSection = document.getElementById("recipe-details");
-    recipeDetailsSection.innerHTML = '';
 
-    recipeDetailsSection.appendChild(recipeImage);
+    const recipeImageBox = document.getElementById("recipe-image-box");
+    recipeImageBox.innerHTML = '';
+
+    recipeImageBox.appendChild(recipeImage);
 
     recipe.ingredients.forEach((ing) => {
         const li = document.createElement("li");
